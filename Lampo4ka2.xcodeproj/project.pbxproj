@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE71FEB719AB4CFE00FD1CC4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE71FEB619AB4CFE00FD1CC4 /* Cocoa.framework */; };
+		AE71FEC119AB4CFE00FD1CC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE71FEBF19AB4CFE00FD1CC4 /* InfoPlist.strings */; };
+		AE71FEC319AB4CFE00FD1CC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE71FEC219AB4CFE00FD1CC4 /* main.m */; };
+		AE71FEC719AB4CFE00FD1CC4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AE71FEC519AB4CFE00FD1CC4 /* Credits.rtf */; };
+		AE71FECA19AB4CFE00FD1CC4 /* ATAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE71FEC919AB4CFE00FD1CC4 /* ATAppDelegate.m */; };
+		AE71FECD19AB4CFE00FD1CC4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE71FECB19AB4CFE00FD1CC4 /* MainMenu.xib */; };
+		AE71FECF19AB4CFE00FD1CC4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE71FECE19AB4CFE00FD1CC4 /* Images.xcassets */; };
+		AE71FED619AB4CFE00FD1CC4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE71FED519AB4CFE00FD1CC4 /* XCTest.framework */; };
+		AE71FED719AB4CFE00FD1CC4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE71FEB619AB4CFE00FD1CC4 /* Cocoa.framework */; };
+		AE71FEDF19AB4CFE00FD1CC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE71FEDD19AB4CFE00FD1CC4 /* InfoPlist.strings */; };
+		AE71FEE119AB4CFE00FD1CC4 /* Lampo4ka2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE71FEE019AB4CFE00FD1CC4 /* Lampo4ka2Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE71FED819AB4CFE00FD1CC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE71FEAB19AB4CFE00FD1CC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE71FEB219AB4CFE00FD1CC4;
+			remoteInfo = Lampo4ka2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE71FEB319AB4CFE00FD1CC4 /* Lampo4ka2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lampo4ka2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE71FEB619AB4CFE00FD1CC4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AE71FEB919AB4CFE00FD1CC4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AE71FEBA19AB4CFE00FD1CC4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AE71FEBB19AB4CFE00FD1CC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AE71FEBE19AB4CFE00FD1CC4 /* Lampo4ka2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lampo4ka2-Info.plist"; sourceTree = "<group>"; };
+		AE71FEC019AB4CFE00FD1CC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE71FEC219AB4CFE00FD1CC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE71FEC419AB4CFE00FD1CC4 /* Lampo4ka2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lampo4ka2-Prefix.pch"; sourceTree = "<group>"; };
+		AE71FEC619AB4CFE00FD1CC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		AE71FEC819AB4CFE00FD1CC4 /* ATAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATAppDelegate.h; sourceTree = "<group>"; };
+		AE71FEC919AB4CFE00FD1CC4 /* ATAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATAppDelegate.m; sourceTree = "<group>"; };
+		AE71FECC19AB4CFE00FD1CC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AE71FECE19AB4CFE00FD1CC4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AE71FED419AB4CFE00FD1CC4 /* Lampo4ka2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lampo4ka2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE71FED519AB4CFE00FD1CC4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AE71FEDC19AB4CFE00FD1CC4 /* Lampo4ka2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lampo4ka2Tests-Info.plist"; sourceTree = "<group>"; };
+		AE71FEDE19AB4CFE00FD1CC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE71FEE019AB4CFE00FD1CC4 /* Lampo4ka2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lampo4ka2Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE71FEB019AB4CFE00FD1CC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE71FEB719AB4CFE00FD1CC4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE71FED119AB4CFE00FD1CC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE71FED719AB4CFE00FD1CC4 /* Cocoa.framework in Frameworks */,
+				AE71FED619AB4CFE00FD1CC4 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE71FEAA19AB4CFE00FD1CC4 = {
+			isa = PBXGroup;
+			children = (
+				AE71FEBC19AB4CFE00FD1CC4 /* Lampo4ka2 */,
+				AE71FEDA19AB4CFE00FD1CC4 /* Lampo4ka2Tests */,
+				AE71FEB519AB4CFE00FD1CC4 /* Frameworks */,
+				AE71FEB419AB4CFE00FD1CC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE71FEB419AB4CFE00FD1CC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE71FEB319AB4CFE00FD1CC4 /* Lampo4ka2.app */,
+				AE71FED419AB4CFE00FD1CC4 /* Lampo4ka2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE71FEB519AB4CFE00FD1CC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE71FEB619AB4CFE00FD1CC4 /* Cocoa.framework */,
+				AE71FED519AB4CFE00FD1CC4 /* XCTest.framework */,
+				AE71FEB819AB4CFE00FD1CC4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE71FEB819AB4CFE00FD1CC4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE71FEB919AB4CFE00FD1CC4 /* AppKit.framework */,
+				AE71FEBA19AB4CFE00FD1CC4 /* CoreData.framework */,
+				AE71FEBB19AB4CFE00FD1CC4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AE71FEBC19AB4CFE00FD1CC4 /* Lampo4ka2 */ = {
+			isa = PBXGroup;
+			children = (
+				AE71FEC819AB4CFE00FD1CC4 /* ATAppDelegate.h */,
+				AE71FEC919AB4CFE00FD1CC4 /* ATAppDelegate.m */,
+				AE71FECB19AB4CFE00FD1CC4 /* MainMenu.xib */,
+				AE71FECE19AB4CFE00FD1CC4 /* Images.xcassets */,
+				AE71FEBD19AB4CFE00FD1CC4 /* Supporting Files */,
+			);
+			path = Lampo4ka2;
+			sourceTree = "<group>";
+		};
+		AE71FEBD19AB4CFE00FD1CC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE71FEBE19AB4CFE00FD1CC4 /* Lampo4ka2-Info.plist */,
+				AE71FEBF19AB4CFE00FD1CC4 /* InfoPlist.strings */,
+				AE71FEC219AB4CFE00FD1CC4 /* main.m */,
+				AE71FEC419AB4CFE00FD1CC4 /* Lampo4ka2-Prefix.pch */,
+				AE71FEC519AB4CFE00FD1CC4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE71FEDA19AB4CFE00FD1CC4 /* Lampo4ka2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AE71FEE019AB4CFE00FD1CC4 /* Lampo4ka2Tests.m */,
+				AE71FEDB19AB4CFE00FD1CC4 /* Supporting Files */,
+			);
+			path = Lampo4ka2Tests;
+			sourceTree = "<group>";
+		};
+		AE71FEDB19AB4CFE00FD1CC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE71FEDC19AB4CFE00FD1CC4 /* Lampo4ka2Tests-Info.plist */,
+				AE71FEDD19AB4CFE00FD1CC4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE71FEB219AB4CFE00FD1CC4 /* Lampo4ka2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE71FEE419AB4CFE00FD1CC4 /* Build configuration list for PBXNativeTarget "Lampo4ka2" */;
+			buildPhases = (
+				AE71FEAF19AB4CFE00FD1CC4 /* Sources */,
+				AE71FEB019AB4CFE00FD1CC4 /* Frameworks */,
+				AE71FEB119AB4CFE00FD1CC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lampo4ka2;
+			productName = Lampo4ka2;
+			productReference = AE71FEB319AB4CFE00FD1CC4 /* Lampo4ka2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE71FED319AB4CFE00FD1CC4 /* Lampo4ka2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE71FEE719AB4CFE00FD1CC4 /* Build configuration list for PBXNativeTarget "Lampo4ka2Tests" */;
+			buildPhases = (
+				AE71FED019AB4CFE00FD1CC4 /* Sources */,
+				AE71FED119AB4CFE00FD1CC4 /* Frameworks */,
+				AE71FED219AB4CFE00FD1CC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE71FED919AB4CFE00FD1CC4 /* PBXTargetDependency */,
+			);
+			name = Lampo4ka2Tests;
+			productName = Lampo4ka2Tests;
+			productReference = AE71FED419AB4CFE00FD1CC4 /* Lampo4ka2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE71FEAB19AB4CFE00FD1CC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Alexander;
+				TargetAttributes = {
+					AE71FED319AB4CFE00FD1CC4 = {
+						TestTargetID = AE71FEB219AB4CFE00FD1CC4;
+					};
+				};
+			};
+			buildConfigurationList = AE71FEAE19AB4CFE00FD1CC4 /* Build configuration list for PBXProject "Lampo4ka2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE71FEAA19AB4CFE00FD1CC4;
+			productRefGroup = AE71FEB419AB4CFE00FD1CC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE71FEB219AB4CFE00FD1CC4 /* Lampo4ka2 */,
+				AE71FED319AB4CFE00FD1CC4 /* Lampo4ka2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE71FEB119AB4CFE00FD1CC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE71FEC119AB4CFE00FD1CC4 /* InfoPlist.strings in Resources */,
+				AE71FECF19AB4CFE00FD1CC4 /* Images.xcassets in Resources */,
+				AE71FEC719AB4CFE00FD1CC4 /* Credits.rtf in Resources */,
+				AE71FECD19AB4CFE00FD1CC4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE71FED219AB4CFE00FD1CC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE71FEDF19AB4CFE00FD1CC4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE71FEAF19AB4CFE00FD1CC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE71FEC319AB4CFE00FD1CC4 /* main.m in Sources */,
+				AE71FECA19AB4CFE00FD1CC4 /* ATAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE71FED019AB4CFE00FD1CC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE71FEE119AB4CFE00FD1CC4 /* Lampo4ka2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE71FED919AB4CFE00FD1CC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE71FEB219AB4CFE00FD1CC4 /* Lampo4ka2 */;
+			targetProxy = AE71FED819AB4CFE00FD1CC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE71FEBF19AB4CFE00FD1CC4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE71FEC019AB4CFE00FD1CC4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AE71FEC519AB4CFE00FD1CC4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE71FEC619AB4CFE00FD1CC4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		AE71FECB19AB4CFE00FD1CC4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE71FECC19AB4CFE00FD1CC4 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		AE71FEDD19AB4CFE00FD1CC4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE71FEDE19AB4CFE00FD1CC4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE71FEE219AB4CFE00FD1CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AE71FEE319AB4CFE00FD1CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AE71FEE519AB4CFE00FD1CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lampo4ka2/Lampo4ka2-Prefix.pch";
+				INFOPLIST_FILE = "Lampo4ka2/Lampo4ka2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AE71FEE619AB4CFE00FD1CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lampo4ka2/Lampo4ka2-Prefix.pch";
+				INFOPLIST_FILE = "Lampo4ka2/Lampo4ka2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AE71FEE819AB4CFE00FD1CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lampo4ka2.app/Contents/MacOS/Lampo4ka2";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lampo4ka2/Lampo4ka2-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Lampo4ka2Tests/Lampo4ka2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AE71FEE919AB4CFE00FD1CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lampo4ka2.app/Contents/MacOS/Lampo4ka2";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lampo4ka2/Lampo4ka2-Prefix.pch";
+				INFOPLIST_FILE = "Lampo4ka2Tests/Lampo4ka2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE71FEAE19AB4CFE00FD1CC4 /* Build configuration list for PBXProject "Lampo4ka2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE71FEE219AB4CFE00FD1CC4 /* Debug */,
+				AE71FEE319AB4CFE00FD1CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE71FEE419AB4CFE00FD1CC4 /* Build configuration list for PBXNativeTarget "Lampo4ka2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE71FEE519AB4CFE00FD1CC4 /* Debug */,
+				AE71FEE619AB4CFE00FD1CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE71FEE719AB4CFE00FD1CC4 /* Build configuration list for PBXNativeTarget "Lampo4ka2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE71FEE819AB4CFE00FD1CC4 /* Debug */,
+				AE71FEE919AB4CFE00FD1CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE71FEAB19AB4CFE00FD1CC4 /* Project object */;
+}
