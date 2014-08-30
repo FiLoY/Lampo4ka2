@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE3BD9F619AB51460051F480 /* ORSSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3BD9F319AB51460051F480 /* ORSSerialPort.m */; };
+		AE3BD9F719AB51460051F480 /* ORSSerialPortManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3BD9F519AB51460051F480 /* ORSSerialPortManager.m */; };
+		AE3BD9F919AB51610051F480 /* lampa.png in Resources */ = {isa = PBXBuildFile; fileRef = AE3BD9F819AB51610051F480 /* lampa.png */; };
+		AE3BD9FC19AB55530051F480 /* indicator1.png in Resources */ = {isa = PBXBuildFile; fileRef = AE3BD9FA19AB55530051F480 /* indicator1.png */; };
+		AE3BD9FD19AB55530051F480 /* indicator2.png in Resources */ = {isa = PBXBuildFile; fileRef = AE3BD9FB19AB55530051F480 /* indicator2.png */; };
 		AE71FEB719AB4CFE00FD1CC4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE71FEB619AB4CFE00FD1CC4 /* Cocoa.framework */; };
 		AE71FEC119AB4CFE00FD1CC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE71FEBF19AB4CFE00FD1CC4 /* InfoPlist.strings */; };
 		AE71FEC319AB4CFE00FD1CC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE71FEC219AB4CFE00FD1CC4 /* main.m */; };
@@ -31,6 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE3BD9F219AB51460051F480 /* ORSSerialPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPort.h; sourceTree = "<group>"; };
+		AE3BD9F319AB51460051F480 /* ORSSerialPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPort.m; sourceTree = "<group>"; };
+		AE3BD9F419AB51460051F480 /* ORSSerialPortManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPortManager.h; sourceTree = "<group>"; };
+		AE3BD9F519AB51460051F480 /* ORSSerialPortManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPortManager.m; sourceTree = "<group>"; };
+		AE3BD9F819AB51610051F480 /* lampa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lampa.png; sourceTree = "<group>"; };
+		AE3BD9FA19AB55530051F480 /* indicator1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indicator1.png; sourceTree = "<group>"; };
+		AE3BD9FB19AB55530051F480 /* indicator2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indicator2.png; sourceTree = "<group>"; };
 		AE71FEB319AB4CFE00FD1CC4 /* Lampo4ka2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lampo4ka2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE71FEB619AB4CFE00FD1CC4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		AE71FEB919AB4CFE00FD1CC4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -118,6 +130,10 @@
 				AE71FEC819AB4CFE00FD1CC4 /* ATAppDelegate.h */,
 				AE71FEC919AB4CFE00FD1CC4 /* ATAppDelegate.m */,
 				AE71FECB19AB4CFE00FD1CC4 /* MainMenu.xib */,
+				AE3BD9F219AB51460051F480 /* ORSSerialPort.h */,
+				AE3BD9F319AB51460051F480 /* ORSSerialPort.m */,
+				AE3BD9F419AB51460051F480 /* ORSSerialPortManager.h */,
+				AE3BD9F519AB51460051F480 /* ORSSerialPortManager.m */,
 				AE71FECE19AB4CFE00FD1CC4 /* Images.xcassets */,
 				AE71FEBD19AB4CFE00FD1CC4 /* Supporting Files */,
 			);
@@ -127,6 +143,9 @@
 		AE71FEBD19AB4CFE00FD1CC4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AE3BD9FA19AB55530051F480 /* indicator1.png */,
+				AE3BD9FB19AB55530051F480 /* indicator2.png */,
+				AE3BD9F819AB51610051F480 /* lampa.png */,
 				AE71FEBE19AB4CFE00FD1CC4 /* Lampo4ka2-Info.plist */,
 				AE71FEBF19AB4CFE00FD1CC4 /* InfoPlist.strings */,
 				AE71FEC219AB4CFE00FD1CC4 /* main.m */,
@@ -231,10 +250,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE3BD9F919AB51610051F480 /* lampa.png in Resources */,
 				AE71FEC119AB4CFE00FD1CC4 /* InfoPlist.strings in Resources */,
 				AE71FECF19AB4CFE00FD1CC4 /* Images.xcassets in Resources */,
 				AE71FEC719AB4CFE00FD1CC4 /* Credits.rtf in Resources */,
 				AE71FECD19AB4CFE00FD1CC4 /* MainMenu.xib in Resources */,
+				AE3BD9FD19AB55530051F480 /* indicator2.png in Resources */,
+				AE3BD9FC19AB55530051F480 /* indicator1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE3BD9F619AB51460051F480 /* ORSSerialPort.m in Sources */,
+				AE3BD9F719AB51460051F480 /* ORSSerialPortManager.m in Sources */,
 				AE71FEC319AB4CFE00FD1CC4 /* main.m in Sources */,
 				AE71FECA19AB4CFE00FD1CC4 /* ATAppDelegate.m in Sources */,
 			);
@@ -467,6 +491,7 @@
 				AE71FEE619AB4CFE00FD1CC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE71FEE719AB4CFE00FD1CC4 /* Build configuration list for PBXNativeTarget "Lampo4ka2Tests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +500,7 @@
 				AE71FEE919AB4CFE00FD1CC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
