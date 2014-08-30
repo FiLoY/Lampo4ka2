@@ -35,6 +35,7 @@
 
 - (IBAction)Button3:(id)sender;
 
+@property (unsafe_unretained) IBOutlet NSTextView *myText;
 
 
 @property IBOutlet NSMenu *statusBarMenu;

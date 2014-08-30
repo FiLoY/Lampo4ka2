@@ -13,7 +13,7 @@
 @implementation ATAppDelegate
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    [self.window setFrame:CGRectMake(500, 400, 480, 400) display:YES];
+    [self.window setFrame:CGRectMake(500, 400, 480, 409) display:YES];
     [self.image1 setImage:[NSImage imageNamed:@"indicator2.png" ]];
     [self.image2 setImage:[NSImage imageNamed:@"indicator2.png" ]];
     [self.image3 setImage:[NSImage imageNamed:@"indicator2.png" ]];
@@ -21,10 +21,9 @@
     [self.button2 setTitle:@"Включить"];
     [self.button3 setTitle:@"Включить"];
   //  [self.button1 setHidden:YES];
-    [self.button1 setEnabled:NO];
+    //[self.button1 setEnabled:NO];
     [self.button2 setEnabled:NO];
     [self.button3 setEnabled:NO];
-
     self.availableBaudRates = [NSArray arrayWithObjects: [NSNumber numberWithInteger:300], [NSNumber numberWithInteger:1200], [NSNumber numberWithInteger:2400], [NSNumber numberWithInteger:4800], [NSNumber numberWithInteger:9600], [NSNumber numberWithInteger:14400], [NSNumber numberWithInteger:19200], [NSNumber numberWithInteger:28800], [NSNumber numberWithInteger:38400], [NSNumber numberWithInteger:57600], [NSNumber numberWithInteger:115200], [NSNumber numberWithInteger:230400],
                                nil];
 
@@ -33,6 +32,7 @@
     NSLog(@"%@",availablePorts);
 
 }
+
 
 
 #pragma mark - кнопка подключения
@@ -95,6 +95,10 @@
 
         [self.button1 setTitle:@"Выключить"];
         [self.image1 setImage:[NSImage imageNamed:@"indicator1.png" ]];
+        [self.myText.textStorage.mutableString appendString:@"hi xcvxcvxcvxcvvxccxv\n "];
+        [self.myText scrollRangeToVisible: NSMakeRange(self.myText.string.length, 0)];
+
+        
     }
     else {
         [self sendData:@"4"];
