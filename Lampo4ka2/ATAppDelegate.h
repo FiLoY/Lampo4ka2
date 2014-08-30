@@ -18,7 +18,8 @@
 @property (weak) IBOutlet NSImageCell *image2;
 @property (weak) IBOutlet NSImageCell *image3;
 
-
+ffdhfgh;
+jhh
 
 @property (weak) IBOutlet NSButton *button1;
 @property (weak) IBOutlet NSButton *button2;
