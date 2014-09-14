@@ -20,10 +20,12 @@
     [self.button1 setTitle:@"Включить"];
     [self.button2 setTitle:@"Включить"];
     [self.button3 setTitle:@"Включить"];
-  //  [self.button1 setHidden:YES];
-    [self.button1 setEnabled:YES];
-    [self.button2 setEnabled:YES];
-    [self.button3 setEnabled:YES];
+    [self.button1 setEnabled:NO];
+    [self.button2 setEnabled:NO];
+    [self.button3 setEnabled:NO];
+    [self.sliderinoOutlet1 setEnabled:NO];
+    [self.sliderinoOutlet2 setEnabled:NO];
+    [self.sliderinoOutlet3 setEnabled:NO];
     self.availableBaudRates = [NSArray arrayWithObjects: [NSNumber numberWithInteger:300], [NSNumber numberWithInteger:1200], [NSNumber numberWithInteger:2400], [NSNumber numberWithInteger:4800], [NSNumber numberWithInteger:9600], [NSNumber numberWithInteger:14400], [NSNumber numberWithInteger:19200], [NSNumber numberWithInteger:28800], [NSNumber numberWithInteger:38400], [NSNumber numberWithInteger:57600], [NSNumber numberWithInteger:115200], [NSNumber numberWithInteger:230400],
                                nil];
 
@@ -202,6 +204,9 @@
     [self.button1 setEnabled:YES];
     [self.button2 setEnabled:YES];
     [self.button3 setEnabled:YES];
+    [self.sliderinoOutlet1 setEnabled:YES];
+    [self.sliderinoOutlet2 setEnabled:YES];
+    [self.sliderinoOutlet3 setEnabled:YES];
     
     [self.myText.textStorage.mutableString appendString:@"Порт успешно открыт.\n "];
     [self.myText scrollRangeToVisible: NSMakeRange(self.myText.string.length, 0)];
@@ -224,7 +229,9 @@
     [self.button1 setEnabled:NO];
     [self.button2 setEnabled:NO];
     [self.button3 setEnabled:NO];
-    
+    [self.sliderinoOutlet1 setEnabled:NO];
+    [self.sliderinoOutlet2 setEnabled:NO];
+    [self.sliderinoOutlet3 setEnabled:NO];
 
     
     [self.myText.textStorage.mutableString appendString:@"Порт успешно закрыт.\n "];
