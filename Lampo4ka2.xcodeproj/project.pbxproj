@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE1CFD7519C035C3009C3D05 /* iconko.png in Resources */ = {isa = PBXBuildFile; fileRef = AE1CFD7419C035C3009C3D05 /* iconko.png */; };
+		AE29FB3219B719BC002D1A17 /* indicator3.png in Resources */ = {isa = PBXBuildFile; fileRef = AE29FB3119B719BC002D1A17 /* indicator3.png */; };
 		AE3BD9F619AB51460051F480 /* ORSSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3BD9F319AB51460051F480 /* ORSSerialPort.m */; };
 		AE3BD9F719AB51460051F480 /* ORSSerialPortManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3BD9F519AB51460051F480 /* ORSSerialPortManager.m */; };
 		AE3BD9F919AB51610051F480 /* lampa.png in Resources */ = {isa = PBXBuildFile; fileRef = AE3BD9F819AB51610051F480 /* lampa.png */; };
@@ -23,6 +25,9 @@
 		AE71FED719AB4CFE00FD1CC4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE71FEB619AB4CFE00FD1CC4 /* Cocoa.framework */; };
 		AE71FEDF19AB4CFE00FD1CC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE71FEDD19AB4CFE00FD1CC4 /* InfoPlist.strings */; };
 		AE71FEE119AB4CFE00FD1CC4 /* Lampo4ka2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE71FEE019AB4CFE00FD1CC4 /* Lampo4ka2Tests.m */; };
+		AEDFEB3519B7636900DE6A2E /* indicator4.png in Resources */ = {isa = PBXBuildFile; fileRef = AEDFEB3419B7636900DE6A2E /* indicator4.png */; };
+		AEDFEB3719B764DD00DE6A2E /* indicator5.png in Resources */ = {isa = PBXBuildFile; fileRef = AEDFEB3619B764DD00DE6A2E /* indicator5.png */; };
+		AEDFEB3919B7663B00DE6A2E /* indicator6.png in Resources */ = {isa = PBXBuildFile; fileRef = AEDFEB3819B7663B00DE6A2E /* indicator6.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE1CFD7419C035C3009C3D05 /* iconko.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconko.png; sourceTree = "<group>"; };
+		AE29FB3119B719BC002D1A17 /* indicator3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indicator3.png; sourceTree = "<group>"; };
 		AE3BD9F219AB51460051F480 /* ORSSerialPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPort.h; sourceTree = "<group>"; };
 		AE3BD9F319AB51460051F480 /* ORSSerialPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPort.m; sourceTree = "<group>"; };
 		AE3BD9F419AB51460051F480 /* ORSSerialPortManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPortManager.h; sourceTree = "<group>"; };
@@ -62,6 +69,9 @@
 		AE71FEDC19AB4CFE00FD1CC4 /* Lampo4ka2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lampo4ka2Tests-Info.plist"; sourceTree = "<group>"; };
 		AE71FEDE19AB4CFE00FD1CC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AE71FEE019AB4CFE00FD1CC4 /* Lampo4ka2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lampo4ka2Tests.m; sourceTree = "<group>"; };
+		AEDFEB3419B7636900DE6A2E /* indicator4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indicator4.png; sourceTree = "<group>"; };
+		AEDFEB3619B764DD00DE6A2E /* indicator5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indicator5.png; sourceTree = "<group>"; };
+		AEDFEB3819B7663B00DE6A2E /* indicator6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indicator6.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +155,11 @@
 			children = (
 				AE3BD9FA19AB55530051F480 /* indicator1.png */,
 				AE3BD9FB19AB55530051F480 /* indicator2.png */,
+				AE29FB3119B719BC002D1A17 /* indicator3.png */,
+				AEDFEB3419B7636900DE6A2E /* indicator4.png */,
+				AEDFEB3619B764DD00DE6A2E /* indicator5.png */,
+				AEDFEB3819B7663B00DE6A2E /* indicator6.png */,
+				AE1CFD7419C035C3009C3D05 /* iconko.png */,
 				AE3BD9F819AB51610051F480 /* lampa.png */,
 				AE71FEBE19AB4CFE00FD1CC4 /* Lampo4ka2-Info.plist */,
 				AE71FEBF19AB4CFE00FD1CC4 /* InfoPlist.strings */,
@@ -251,12 +266,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE3BD9F919AB51610051F480 /* lampa.png in Resources */,
+				AEDFEB3719B764DD00DE6A2E /* indicator5.png in Resources */,
+				AE29FB3219B719BC002D1A17 /* indicator3.png in Resources */,
 				AE71FEC119AB4CFE00FD1CC4 /* InfoPlist.strings in Resources */,
 				AE71FECF19AB4CFE00FD1CC4 /* Images.xcassets in Resources */,
 				AE71FEC719AB4CFE00FD1CC4 /* Credits.rtf in Resources */,
 				AE71FECD19AB4CFE00FD1CC4 /* MainMenu.xib in Resources */,
 				AE3BD9FD19AB55530051F480 /* indicator2.png in Resources */,
+				AE1CFD7519C035C3009C3D05 /* iconko.png in Resources */,
 				AE3BD9FC19AB55530051F480 /* indicator1.png in Resources */,
+				AEDFEB3919B7663B00DE6A2E /* indicator6.png in Resources */,
+				AEDFEB3519B7636900DE6A2E /* indicator4.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

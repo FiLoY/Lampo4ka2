@@ -13,6 +13,9 @@
         <customObject id="-3" userLabel="Application"/>
         <customObject id="Voe-Tx-rLC" customClass="ATAppDelegate">
             <connections>
+                <outlet property="boxi" destination="vX2-IS-CMd" id="P8e-hh-joa"/>
+                <outlet property="but1" destination="T9K-FN-piU" id="oVz-Bs-ma8"/>
+                <outlet property="but2" destination="cY7-qq-YVE" id="3jI-9W-fno"/>
                 <outlet property="button1" destination="P6F-N6-YJT" id="5TC-82-e9U"/>
                 <outlet property="button2" destination="XHH-Am-Wyz" id="TWv-2p-nfU"/>
                 <outlet property="button3" destination="6yE-ZK-1tA" id="H3A-dm-Cur"/>
@@ -23,6 +26,10 @@
                 <outlet property="openClose" destination="PQY-qT-ZuT" id="2ea-DR-gsZ"/>
                 <outlet property="popBut1" destination="KmN-zC-9Eg" id="pEd-AR-IcG"/>
                 <outlet property="popBut2" destination="m6b-pp-VYF" id="HFC-cD-NtR"/>
+                <outlet property="sliderin4ka" destination="Cmj-DL-f5g" id="alG-sh-ULc"/>
+                <outlet property="sliderinoOutlet1" destination="rMz-sk-0b0" id="qOp-cM-6fK"/>
+                <outlet property="sliderinoOutlet2" destination="mlu-Fy-Eng" id="eSc-6z-sS0"/>
+                <outlet property="sliderinoOutlet3" destination="06r-44-hnG" id="Z2S-oY-a7z"/>
                 <outlet property="statusBarMenu" destination="0ys-mj-d2h" id="vC2-cG-Lej"/>
                 <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
             </connections>
@@ -74,7 +81,7 @@
             <value key="maxSize" type="size" width="480" height="300"/>
             <view key="contentView" id="EiT-Mj-1SZ">
                 <rect key="frame" x="0.0" y="0.0" width="480" height="400"/>
-                <autoresizingMask key="autoresizingMask"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 <subviews>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9wH-xP-dqG">
                         <rect key="frame" x="39" y="291" width="94" height="17"/>
@@ -248,6 +255,97 @@
                             <autoresizingMask key="autoresizingMask"/>
                         </scroller>
                     </scrollView>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BGI-U7-I6J">
+                        <rect key="frame" x="20" y="124" width="32" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Лог:" id="87k-61-reX">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <box autoresizesSubviews="NO" verticalHuggingPriority="750" fixedFrame="YES" title="Box" boxType="separator" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="l0D-ma-HKs">
+                        <rect key="frame" x="0.0" y="140" width="480" height="5"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                        <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <font key="titleFont" metaFont="system"/>
+                    </box>
+                    <slider verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rMz-sk-0b0">
+                        <rect key="frame" x="163" y="289" width="190" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <sliderCell key="cell" continuous="YES" state="on" alignment="left" maxValue="255" tickMarkPosition="above" sliderType="linear" id="1ah-H0-v30"/>
+                        <connections>
+                            <action selector="sliderinoAct1:" target="Voe-Tx-rLC" id="afn-yb-F2X"/>
+                            <binding destination="Voe-Tx-rLC" name="value" keyPath="self.sliderinoVal1" id="U59-Cu-W56"/>
+                        </connections>
+                    </slider>
+                    <slider verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mlu-Fy-Eng">
+                        <rect key="frame" x="163" y="229" width="190" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <sliderCell key="cell" continuous="YES" state="on" alignment="left" maxValue="255" tickMarkPosition="above" sliderType="linear" id="chT-zm-3wn"/>
+                        <connections>
+                            <action selector="sliderinoAct2:" target="Voe-Tx-rLC" id="qj4-yX-AdX"/>
+                            <binding destination="Voe-Tx-rLC" name="value" keyPath="self.sliderinoVal2" id="dsi-Zk-Ife"/>
+                        </connections>
+                    </slider>
+                    <slider verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="06r-44-hnG">
+                        <rect key="frame" x="163" y="169" width="190" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <sliderCell key="cell" continuous="YES" state="on" alignment="left" maxValue="255" tickMarkPosition="above" sliderType="linear" id="Cmj-DL-f5g"/>
+                        <connections>
+                            <action selector="sliderinoAct3:" target="Voe-Tx-rLC" id="zyI-Rs-Ipq"/>
+                            <binding destination="Voe-Tx-rLC" name="value" keyPath="self.sliderinoVal3" id="bog-M4-4kS"/>
+                        </connections>
+                    </slider>
+                    <box autoresizesSubviews="NO" fixedFrame="YES" borderType="line" translatesAutoresizingMaskIntoConstraints="NO" id="EZw-yX-vOX">
+                        <rect key="frame" x="17" y="159" width="446" height="50"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <view key="contentView">
+                            <rect key="frame" x="1" y="1" width="444" height="34"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </view>
+                        <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                        <color key="fillColor" red="0.35665178298950195" green="0.072193309664726257" blue="0.085815414786338806" alpha="0.0" colorSpace="calibratedRGB"/>
+                    </box>
+                    <box autoresizesSubviews="NO" fixedFrame="YES" borderType="line" translatesAutoresizingMaskIntoConstraints="NO" id="LzM-c9-SV2">
+                        <rect key="frame" x="17" y="219" width="446" height="50"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <view key="contentView">
+                            <rect key="frame" x="1" y="1" width="444" height="34"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </view>
+                        <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                        <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </box>
+                    <box autoresizesSubviews="NO" fixedFrame="YES" borderType="line" translatesAutoresizingMaskIntoConstraints="NO" id="vX2-IS-CMd">
+                        <rect key="frame" x="17" y="279" width="446" height="50"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <view key="contentView">
+                            <rect key="frame" x="1" y="1" width="444" height="34"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </view>
+                        <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                        <color key="fillColor" red="0.25632329863303638" green="0.88859215561224492" blue="0.34600813003378056" alpha="0.0" colorSpace="calibratedRGB"/>
+                    </box>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gp8-bt-pgo">
+                        <rect key="frame" x="29" y="383" width="38" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Порт:" id="JjS-F2-HNY">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g56-EJ-Ef5">
+                        <rect key="frame" x="184" y="383" width="70" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Скорость:" id="6ca-Ql-PO0">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
                 </subviews>
             </view>
         </window>
@@ -260,11 +358,17 @@
                     </connections>
                 </menuItem>
                 <menuItem isSeparatorItem="YES" id="mNY-Em-xYY"/>
-                <menuItem title="Включить" id="T9K-FN-piU">
+                <menuItem title="Включить все" id="T9K-FN-piU">
                     <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="allOn:" target="Voe-Tx-rLC" id="DoO-y6-Glc"/>
+                    </connections>
                 </menuItem>
-                <menuItem title="Выключить" id="cY7-qq-YVE">
+                <menuItem title="Выключить все" id="cY7-qq-YVE">
                     <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="allOff:" target="Voe-Tx-rLC" id="X8d-th-W6l"/>
+                    </connections>
                 </menuItem>
                 <menuItem isSeparatorItem="YES" id="bNw-cV-ybW"/>
                 <menuItem title="Выход" id="mw2-4i-SyF">
